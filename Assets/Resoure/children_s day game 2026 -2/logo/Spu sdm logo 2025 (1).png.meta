@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 1006f989b7181ca4f9d445d4c0053f56
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3558563052925994453
+    second: Spu sdm logo 2025 (1)_0
+  - first:
+      213: -3304899599307196153
+    second: Spu sdm logo 2025 (1)_1
+  - first:
+      213: -3229714585874170664
+    second: Spu sdm logo 2025 (1)_2
+  - first:
+      213: 897733346572976776
+    second: Spu sdm logo 2025 (1)_3
+  - first:
+      213: 760322147701005962
+    second: Spu sdm logo 2025 (1)_4
+  - first:
+      213: 6785779093733198490
+    second: Spu sdm logo 2025 (1)_5
+  - first:
+      213: 7317281928883118515
+    second: Spu sdm logo 2025 (1)_6
+  - first:
+      213: 1924064897867891937
+    second: Spu sdm logo 2025 (1)_7
+  - first:
+      213: -360069249624625946
+    second: Spu sdm logo 2025 (1)_8
+  - first:
+      213: -2423706677610966940
+    second: Spu sdm logo 2025 (1)_9
+  - first:
+      213: -4980450302781579572
+    second: Spu sdm logo 2025 (1)_10
+  - first:
+      213: -5020972024541462247
+    second: Spu sdm logo 2025 (1)_11
+  - first:
+      213: -874357086684783698
+    second: Spu sdm logo 2025 (1)_12
+  - first:
+      213: 2922675637475352476
+    second: Spu sdm logo 2025 (1)_13
+  - first:
+      213: -5688825166128859323
+    second: Spu sdm logo 2025 (1)_14
+  - first:
+      213: -8651181900949417875
+    second: Spu sdm logo 2025 (1)_15
+  - first:
+      213: 4568596978269915205
+    second: Spu sdm logo 2025 (1)_16
+  - first:
+      213: -8015928284398966688
+    second: Spu sdm logo 2025 (1)_17
+  - first:
+      213: -564466707039352777
+    second: Spu sdm logo 2025 (1)_18
+  - first:
+      213: 6525096204730779049
+    second: Spu sdm logo 2025 (1)_19
+  - first:
+      213: -2911679011019166826
+    second: Spu sdm logo 2025 (1)_20
+  - first:
+      213: -2175681210247804152
+    second: Spu sdm logo 2025 (1)_21
+  - first:
+      213: -2570708477958946788
+    second: Spu sdm logo 2025 (1)_22
+  - first:
+      213: -236909339043491328
+    second: Spu sdm logo 2025 (1)_23
+  - first:
+      213: 7166672728230860402
+    second: Spu sdm logo 2025 (1)_24
+  - first:
+      213: 5481292274257348687
+    second: Spu sdm logo 2025 (1)_25
+  - first:
+      213: -6010179145523021862
+    second: Spu sdm logo 2025 (1)_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_0
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 413
+        width: 269
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5cb781e3e826130800000000000000
+      internalID: 3558563052925994453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 422
+        width: 273
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709b6f41353a222d0800000000000000
+      internalID: -3304899599307196153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_2
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 417
+        width: 307
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc721722bfbd23d0800000000000000
+      internalID: -3229714585874170664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 489
+        width: 229
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8824189e8b3657c00800000000000000
+      internalID: 897733346572976776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 493
+        width: 268
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e949807f43d8a00800000000000000
+      internalID: 760322147701005962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_5
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 493
+        width: 290
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a4d36122eeb2e50800000000000000
+      internalID: 6785779093733198490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 389
+        width: 56
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1a67c45253c8560800000000000000
+      internalID: 7317281928883118515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_7
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 389
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4c63a94d6a3ba10800000000000000
+      internalID: 1924064897867891937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_8
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 390
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec2599dce6c00bf0800000000000000
+      internalID: -360069249624625946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_9
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 389
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46091493e934d5ed0800000000000000
+      internalID: -2423706677610966940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_10
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 389
+        width: 62
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce973156d2e1eab0800000000000000
+      internalID: -4980450302781579572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_11
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 390
+        width: 48
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9114802cb8ce15ab0800000000000000
+      internalID: -5020972024541462247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_12
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 389
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabde49bcd8add3f0800000000000000
+      internalID: -874357086684783698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_13
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 390
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f186dd10e6f8820800000000000000
+      internalID: 2922675637475352476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_14
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 297
+        width: 307
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547369fe6ab3d01b0800000000000000
+      internalID: -5688825166128859323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 295
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d601f92a5e3d0f780800000000000000
+      internalID: -8651181900949417875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_16
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 295
+        width: 16
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54883bb0fbae66f30800000000000000
+      internalID: 4568596978269915205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 294
+        width: 59
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068a46f02b3b1c090800000000000000
+      internalID: -8015928284398966688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_18
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 295
+        width: 16
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7388267458c9a28f0800000000000000
+      internalID: -564466707039352777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_19
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 295
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a54a304d6ccd8a50800000000000000
+      internalID: 6525096204730779049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_20
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 295
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bed30cd53a797d0800000000000000
+      internalID: -2911679011019166826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_21
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 295
+        width: 49
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b00be677d6ec1e0800000000000000
+      internalID: -2175681210247804152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_22
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 294
+        width: 67
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c100c2e6242035cd0800000000000000
+      internalID: -2570708477958946788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_23
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 295
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002175a163456bcf0800000000000000
+      internalID: -236909339043491328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_24
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 295
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2761eab20e2257360800000000000000
+      internalID: 7166672728230860402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_25
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 295
+        width: 16
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48c3354846711c40800000000000000
+      internalID: 5481292274257348687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spu sdm logo 2025 (1)_26
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 295
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7b3a219ed879ca0800000000000000
+      internalID: -6010179145523021862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spu sdm logo 2025 (1)_0: 3558563052925994453
+      Spu sdm logo 2025 (1)_1: -3304899599307196153
+      Spu sdm logo 2025 (1)_10: -4980450302781579572
+      Spu sdm logo 2025 (1)_11: -5020972024541462247
+      Spu sdm logo 2025 (1)_12: -874357086684783698
+      Spu sdm logo 2025 (1)_13: 2922675637475352476
+      Spu sdm logo 2025 (1)_14: -5688825166128859323
+      Spu sdm logo 2025 (1)_15: -8651181900949417875
+      Spu sdm logo 2025 (1)_16: 4568596978269915205
+      Spu sdm logo 2025 (1)_17: -8015928284398966688
+      Spu sdm logo 2025 (1)_18: -564466707039352777
+      Spu sdm logo 2025 (1)_19: 6525096204730779049
+      Spu sdm logo 2025 (1)_2: -3229714585874170664
+      Spu sdm logo 2025 (1)_20: -2911679011019166826
+      Spu sdm logo 2025 (1)_21: -2175681210247804152
+      Spu sdm logo 2025 (1)_22: -2570708477958946788
+      Spu sdm logo 2025 (1)_23: -236909339043491328
+      Spu sdm logo 2025 (1)_24: 7166672728230860402
+      Spu sdm logo 2025 (1)_25: 5481292274257348687
+      Spu sdm logo 2025 (1)_26: -6010179145523021862
+      Spu sdm logo 2025 (1)_3: 897733346572976776
+      Spu sdm logo 2025 (1)_4: 760322147701005962
+      Spu sdm logo 2025 (1)_5: 6785779093733198490
+      Spu sdm logo 2025 (1)_6: 7317281928883118515
+      Spu sdm logo 2025 (1)_7: 1924064897867891937
+      Spu sdm logo 2025 (1)_8: -360069249624625946
+      Spu sdm logo 2025 (1)_9: -2423706677610966940
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
