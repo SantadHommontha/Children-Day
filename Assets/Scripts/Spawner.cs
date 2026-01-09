@@ -1,68 +1,87 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
 
 
 
 
 public class Spawner : MonoBehaviour
 {
+   [Header("References")]
+    public SpriteRenderer spawnAreaSquare;
+    public GameObject prefabToSpawn;
+
     [Header("Settings")]
-    [SerializeField] private GameObject prefabToSpawn;
-    [SerializeField] private GameObject prefabToSpawnalp;
-    [SerializeField] private BoxCollider2D spawnArea; 
-    [SerializeField] private int maxObjects = 10;
-    [SerializeField] private float minDistanceBetween = 1.5f; 
-    [SerializeField] private float spawnInterval = 1.0f;
-    [SerializeField] private LayerMask layerMask;
+    public int maxObjects = 10;
+    public float minDistanceBetween = 1.2f;
+    public float spawnInterval = 0.5f;
 
-   
+    [Header("Status")]
+    public bool isSpawning = false; 
 
-    [Header("Runtime Info")]
-    public List<GameObject> spawnedObjects = new List<GameObject>();
+    private List<GameObject> spawnedObjects = new List<GameObject>();
+    private float timer;
 
-
-    [Header("Debug")]
-    [SerializeField] private bool showGizmos = false;
-     private Vector2 randomPos_debug;
-    void Start()
-    {
-
-        // เริ่มต้นเรียกใช้การ Spawn ซ้ำๆ ตามเวลาที่กำหนด
-        InvokeRepeating(nameof(SpawnObject), 0f, spawnInterval);
-    }
-
-    void SpawnObject()
+    void Update()
     {
        
-        spawnedObjects.RemoveAll(item => item == null);
-        if (spawnedObjects.Count >= maxObjects) return;
-       
-        Vector2 randomPos = GetRandomPosition();
-      
-       
-        Collider2D hit = Physics2D.OverlapCircle(randomPos, minDistanceBetween, layerMask);
-       
-        if (hit == null)
+        if (isSpawning)
         {
-           
-            GameObject newObj = Instantiate(prefabToSpawn, randomPos, Quaternion.identity);
-            spawnedObjects.Add(newObj);
+            timer += Time.deltaTime;
+            if (timer >= spawnInterval)
+            {
+                TrySpawn();
+                timer = 0;
+            }
         }
     }
 
-    Vector2 GetRandomPosition()
+    public void ClearSpawn()
     {
-        Bounds bounds = spawnArea.bounds;
-        float x = Random.Range(bounds.min.x, bounds.max.x);
-        float y = Random.Range(bounds.min.y, bounds.max.y);
-        return new Vector2(x, y);
+        for(int i =0;i<spawnedObjects.Count;i++)
+        {
+            Destroy(spawnedObjects[i].gameObject);
+        }
+        spawnedObjects.Clear();
+    }
+  
+    public void StartSpawning()
+    {
+        isSpawning = true;
+        Debug.Log("Spawn Started");
     }
 
-    private void OnDrawGizmosSelected()
+    public void StopSpawning()
     {
-        if (!showGizmos) return;
-        Gizmos.color = Color.red;
+        isSpawning = false;
+        Debug.Log("Spawn Stopped");
+    }
 
-        Gizmos.DrawSphere(randomPos_debug, minDistanceBetween);
+    void TrySpawn()
+    {
+      
+        spawnedObjects.RemoveAll(item => item == null);
+
+       
+        if (spawnedObjects.Count >= maxObjects) return;
+
+     
+        Bounds bounds = spawnAreaSquare.bounds;
+
+      
+        for (int i = 0; i < 15; i++) 
+        {
+            float randomX = Random.Range(bounds.min.x, bounds.max.x);
+            float randomY = Random.Range(bounds.min.y, bounds.max.y);
+            Vector2 spawnPos = new Vector2(randomX, randomY);
+
+           
+            if (Physics2D.OverlapCircle(spawnPos, minDistanceBetween) == null)
+            {
+                GameObject newObj = Instantiate(prefabToSpawn, spawnPos, Quaternion.identity);
+                spawnedObjects.Add(newObj);
+                break; 
+            }
+        }
     }
 }
