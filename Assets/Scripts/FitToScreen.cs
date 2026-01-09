@@ -53,6 +53,6 @@ public class FitToScreen : MonoBehaviour
         transform.localScale = new Vector3(screenWidth / 10f, 1f, screenHeight / 10f);
 
         // หมุนให้หันหน้ามาหา Camera (สำหรับ 2D)
-        transform.rotation = Quaternion.Euler(-90f, 180f, 0f);
+        transform.rotation = Quaternion.Euler(90f, 180f, 0f);
     }
 }
