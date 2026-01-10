@@ -205,6 +205,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2022162806}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   score: 0
 --- !u!4 &14253187
 Transform:
@@ -233,12 +245,12 @@ GameObject:
   - component: {fileID: 28438388}
   - component: {fileID: 28438387}
   m_Layer: 0
-  m_Name: Square
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &28438386
 Transform:
   m_ObjectHideFlags: 0
@@ -949,7 +961,7 @@ GameObject:
   - component: {fileID: 132484830}
   - component: {fileID: 132484829}
   m_Layer: 0
-  m_Name: 'Scene 2 3Backgroup video '
+  m_Name: 'Scene 2 Backgroup video '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -964,11 +976,11 @@ Transform:
   m_GameObject: {fileID: 132484827}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -540, y: -960, z: 0}
-  m_LocalScale: {x: 0.5625, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
+  m_LocalScale: {x: 0.0029296875, y: 0.005208333, z: 0.005208333}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2132960466}
+  m_Father: {fileID: 157686472}
   m_LocalEulerAnglesHint: {x: 90, y: -270, z: -270}
 --- !u!114 &132484829
 MonoBehaviour:
@@ -1001,19 +1013,19 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
+  m_AudioOutputMode: 0
   m_TargetAudioSources: []
   m_DirectAudioVolumes: []
-  m_Url: 
+  m_Url: https://digitalsense.website/catch-the-stars/Vdo/vid-2.mp4
   m_EnabledAudioTracks: 
   m_DirectAudioMutes: 
   m_ControlledAudioTrackCount: 0
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -1111,7 +1123,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &157686472
 Transform:
   m_ObjectHideFlags: 0
@@ -1125,6 +1137,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 132484828}
   - {fileID: 131815714}
   - {fileID: 2093056353}
   - {fileID: 904115563}
@@ -1352,6 +1365,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 979979458}
+        m_TargetAssemblyTypeName: UnityEngine.Video.VideoPlayer, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   disableEvent:
     m_PersistentCalls:
       m_Calls:
@@ -1397,11 +1422,11 @@ Transform:
   m_GameObject: {fileID: 295937800}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -540, y: -960, z: 0}
-  m_LocalScale: {x: 0.5625, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
+  m_LocalScale: {x: 0.0029296875, y: 0.005208333, z: 0.005208333}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1311820715}
+  m_Father: {fileID: 1602939579}
   m_LocalEulerAnglesHint: {x: 90, y: -270, z: -270}
 --- !u!114 &295937802
 MonoBehaviour:
@@ -1434,19 +1459,19 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
+  m_AudioOutputMode: 0
   m_TargetAudioSources: []
   m_DirectAudioVolumes: []
-  m_Url: 
+  m_Url: https://digitalsense.website/catch-the-stars/Vdo/vid-2.mp4
   m_EnabledAudioTracks: 
   m_DirectAudioMutes: 
   m_ControlledAudioTrackCount: 0
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -1643,9 +1668,9 @@ Canvas:
   m_GameObject: {fileID: 366611209}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
+  m_PlaneDistance: 4.37
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -2369,7 +2394,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 780436504}
   - {fileID: 181383866}
   - {fileID: 993279587}
   - {fileID: 1138262566}
@@ -2802,11 +2826,11 @@ Transform:
   m_GameObject: {fileID: 780436503}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -540, y: -960, z: 0}
-  m_LocalScale: {x: 0.5625, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
+  m_LocalScale: {x: 0.0029296875, y: 0.005208333, z: 0.005208333}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 509126193}
+  m_Father: {fileID: 2022162807}
   m_LocalEulerAnglesHint: {x: 90, y: -270, z: -270}
 --- !u!114 &780436505
 MonoBehaviour:
@@ -2839,19 +2863,19 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
+  m_AudioOutputMode: 0
   m_TargetAudioSources: []
   m_DirectAudioVolumes: []
-  m_Url: 
+  m_Url: https://digitalsense.website/catch-the-stars/Vdo/vid-2.mp4
   m_EnabledAudioTracks: 
   m_DirectAudioMutes: 
   m_ControlledAudioTrackCount: 0
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -3174,12 +3198,12 @@ GameObject:
   - component: {fileID: 886036907}
   - component: {fileID: 886036906}
   m_Layer: 0
-  m_Name: Square
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &886036905
 Transform:
   m_ObjectHideFlags: 0
@@ -3420,7 +3444,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &973829120
 Transform:
   m_ObjectHideFlags: 0
@@ -3430,10 +3454,11 @@ Transform:
   m_GameObject: {fileID: 973829119}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 979979462}
   - {fileID: 886036905}
   - {fileID: 2050989650}
   - {fileID: 189381024}
@@ -3459,7 +3484,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!328 &979979458
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -3478,17 +3503,17 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
-  m_TimeUpdateMode: 2
+  m_DataSource: 1
+  m_TimeUpdateMode: 1
   m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
+  m_AudioOutputMode: 0
   m_TargetAudioSources: []
   m_DirectAudioVolumes: []
-  m_Url: 
+  m_Url: https://digitalsense.website/catch-the-stars/Vdo/vid-1.mp4
   m_EnabledAudioTracks: 
   m_DirectAudioMutes: 
   m_ControlledAudioTrackCount: 0
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 0
   m_WaitForFirstFrame: 1
@@ -3581,12 +3606,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 979979457}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.70710677, z: 0.70710677, w: 0}
-  m_LocalPosition: {x: -540, y: -960, z: 0}
+  m_LocalRotation: {x: -0.000000030908623, y: 0.7071068, z: -0.7071068, w: -0.000000030908623}
+  m_LocalPosition: {x: 0, y: 0, z: -5.63}
   m_LocalScale: {x: 0.5625, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1590483971}
+  m_Father: {fileID: 973829120}
   m_LocalEulerAnglesHint: {x: -90, y: -270, z: -270}
 --- !u!114 &979979463
 MonoBehaviour:
@@ -3600,7 +3625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a187755bbb079744bb496bf19ad832dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FitToScreen
-  reSizeOnStart: 1
+  reSizeOnStart: 0
 --- !u!1 &990572927
 GameObject:
   m_ObjectHideFlags: 0
@@ -3951,7 +3976,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -146.6, y: -243.3}
+  m_AnchoredPosition: {x: -146.6, y: -243.29999}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1138262567
@@ -4399,7 +4424,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 295937801}
   - {fileID: 919779199}
   - {fileID: 90010760}
   - {fileID: 990572928}
@@ -5084,7 +5108,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 979979462}
   - {fileID: 1792927288}
   - {fileID: 161635844}
   - {fileID: 1871321300}
@@ -5129,6 +5152,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 295937801}
   - {fileID: 88262944}
   - {fileID: 2001748052}
   - {fileID: 1783192582}
@@ -5862,12 +5886,12 @@ GameObject:
   - component: {fileID: 2001748054}
   - component: {fileID: 2001748053}
   m_Layer: 0
-  m_Name: Square
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2001748052
 Transform:
   m_ObjectHideFlags: 0
@@ -5984,6 +6008,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 780436504}
   - {fileID: 28438386}
   - {fileID: 1262612447}
   - {fileID: 1537551395}
@@ -6066,12 +6091,12 @@ GameObject:
   - component: {fileID: 2093056355}
   - component: {fileID: 2093056354}
   m_Layer: 0
-  m_Name: Square
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2093056353
 Transform:
   m_ObjectHideFlags: 0
@@ -6377,7 +6402,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 132484828}
   - {fileID: 1374451338}
   - {fileID: 1402136689}
   - {fileID: 415687670}
