@@ -12,12 +12,12 @@ public class SimpleAudio : MonoBehaviour
     public bool playOnStart = false;
     public bool loop = false;
 
-    private AudioSource audioSource;
+  [SerializeField]  private AudioSource audioSource;
     private Coroutine fadeCoroutine;
 
     void Awake()
     {
-        audioSource = GetComponent<AudioSource>();
+       if(audioSource == null) audioSource = GetComponent<AudioSource>();
         audioSource.loop = loop;
     }
 
@@ -46,11 +46,11 @@ public class SimpleAudio : MonoBehaviour
     }
 
    
-    private void ExecutePlay(AudioClip clip)
+    private void ExecutePlay(AudioClip _clip)
     {
         if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
-        
-        audioSource.clip = clip;
+       
+        audioSource.clip = _clip;
         audioSource.volume = 1f; 
         audioSource.Play();
     }

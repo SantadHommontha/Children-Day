@@ -29,10 +29,12 @@ public class GameController : MonoBehaviour
     public int score = 0;
     void Start()
     {
-        scene1.SetActive(true);
+        scene1.SetActive(false);
         scene2.SetActive(false);
         scene3.SetActive(false);
         scene4.SetActive(false);
+
+        scene1.SetActive(true);
     }
 
     public void SetUp()

@@ -15,5 +15,6 @@ public class EnableOrDisableEvent : MonoBehaviour
     void OnDisable()
     {
         disableEvent?.Invoke();
+        Debug.Log("disableEvent is null!");
     }
 }

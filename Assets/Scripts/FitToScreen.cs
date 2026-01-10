@@ -22,22 +22,18 @@ public class FitToScreen : MonoBehaviour
     void FitObjectToScreen()
     {
         Camera cam = Camera.main;
-
-        // 1. หาความสูงของหน้าจอในหน่วย Unity Unit
-        // สูตร: Orthographic Size * 2
+       
         float screenHeight = cam.orthographicSize * 2.0f;
-
-        // 2. หาความกว้างของหน้าจอโดยคำนวณจาก Aspect Ratio (สัดส่วนจอ)
+      
         float screenWidth = screenHeight * cam.aspect;
-
-        // 3. ปรับ Scale ของ Object (ถ้าเป็น Sprite หรือ Plane ปกติจะใช้ค่านี้ได้เลย)
+      
         transform.localScale = new Vector3(screenWidth, screenHeight, 1);
 
-        // วางตำแหน่งให้อยู่ตรงกลางกล้อง
+      
         transform.position = new Vector3(cam.transform.position.x, cam.transform.position.y, 0);
     }
 
-    [ContextMenu("Resize Now")] // สามารถคลิกขวาที่ชื่อ Component ใน Inspector เพื่อกดรันได้
+    [ContextMenu("Resize Now")] 
     void Resize()
     {
         Camera cam = Camera.main;
