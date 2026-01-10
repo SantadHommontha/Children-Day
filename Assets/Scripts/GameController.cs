@@ -6,12 +6,15 @@ using UnityEngine.UIElements;
 public class GameController : MonoBehaviour
 {
     public static GameController Instance;
-    public GameObject startScene;
+    public GameObject scene1;
+    public GameObject scene2;
+    public GameObject scene3;
+    public GameObject scene4;
 
     public float gameTime = 10f;
     public float timer = 0;
 
-
+    
 
     public UnityEvent timerOverEvent;
     void Awake()
@@ -26,7 +29,10 @@ public class GameController : MonoBehaviour
     public int score = 0;
     void Start()
     {
-        startScene.SetActive(true);
+        scene1.SetActive(true);
+        scene2.SetActive(false);
+        scene3.SetActive(false);
+        scene4.SetActive(false);
     }
 
     public void SetUp()
