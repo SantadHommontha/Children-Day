@@ -5,12 +5,12 @@ using UnityEngine.EventSystems;
 public class Star : MonoBehaviour, IPointerDownHandler
 {
     public StarHandle starHandle;
-    public int scoreIncrees = 1;
+  
     public UnityEvent onClickEvent;
     public void OnPointerDown(PointerEventData eventData)
     {
         onClickEvent?.Invoke();
-        starHandle.OnClick(scoreIncrees);
+        starHandle.OnClick();
     }
     void Awake()
     {

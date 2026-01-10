@@ -9,7 +9,8 @@ public class Spawner : MonoBehaviour
 {
    [Header("References")]
     public SpriteRenderer spawnAreaSquare;
-    public GameObject prefabToSpawn;
+    public GameObject yellowStartPrefap;
+    public GameObject whiteStarPrefap;
 
     [Header("Settings")]
     public int maxObjects = 10;
@@ -78,10 +79,18 @@ public class Spawner : MonoBehaviour
            
             if (Physics2D.OverlapCircle(spawnPos, minDistanceBetween) == null)
             {
-                GameObject newObj = Instantiate(prefabToSpawn, spawnPos, Quaternion.identity);
+                GameObject newObj = Instantiate(RandomStar(), spawnPos, Quaternion.identity);
                 spawnedObjects.Add(newObj);
                 break; 
             }
         }
+    }
+
+
+    private GameObject RandomStar()
+    {
+        int r = Random.Range(0, 10);
+        if (r > 3) return yellowStartPrefap;
+        else return whiteStarPrefap; 
     }
 }
